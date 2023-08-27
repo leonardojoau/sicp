@@ -1,4 +1,4 @@
-;evaluate a polynomial in x usign the accumulate procedure
+;evaluate a polynomial in x using the accumulate procedure
 
 (define (accumulate op initial sequence)
 	(if (null? sequence)
